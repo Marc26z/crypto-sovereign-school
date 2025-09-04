@@ -1,0 +1,31 @@
+# Crypto means cryptography. 
+
+Cryptograpny means secret writing.
+
+The most primitive form of crypto is known as the Cesar Cipher. Legend has it that Julius Cesar first used it as a way to transmit military secrets to his generals. It is also known as a substituton cipher. Here is how it works.
+
+1. Each letter of the alphabet is assigned a number from 1-26. The message is encrypted by rotating the letters or shifting them from a certain number. The regular alphabet is ROT0 which means 0 rotations. Your kidnergarden teacher taaught you the ROT0 alphabet by singing the ABC's.
+- The word "hello" using ROT0="hello."
+- The word "hello" using ROT1="ifmmp"
+- The word "hello" using ROT13 ="uryyb"
+
+- The word "hello" using ROT26 ="hello"
+
+2. Notice how that works like a clock. When a clock goes past 12, it starts at 1 again. The same is true for the Cesar Cipher. This is technically called modulo math, but let's not get too geeky.
+
+A popular example is [ROT13](https://en.wikipedia.org/wiki/ROT13)
+
+  3. We can send a postcard to our friend with the word Uryyb!
+  
+  4. This is a public message, but only someone with the secret key can read it. In this case, our seceret key is 13.
+
+  This is not strong crptography, but if the mailman does not know to shift the letters 13 times, the mailman will not be able to decypher the contents of the post card. This is no longer suitable for sensitive, highly classified secrets like military plans, but it worked for over a millenia.If your messenger was a traitor and knew the secret key, he could share it with the enemy. This is the oribkem with sending messages. We call it the [Byzantine General's Problem](https://en.wikipedia.org/wiki/Byzantine_fault).
+      
+
+      ## Try It Yourself
+
+      Now it's time for you to try.
+
+      Decrypt the following sentence nusing ROT13
+
+        Or Fher Gb Qevax Lbhe Binygvar
